@@ -1,7 +1,7 @@
 pipeline {
   agent { label 'linux' }
   tools {
-    maven 'M2'
+    maven 'M2_HOME'
   }
   stages {
     stage('checkout') {
